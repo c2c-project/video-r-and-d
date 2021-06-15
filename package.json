@@ -1,0 +1,16 @@
+{
+  "name": "prytaneum-r-d",
+  "scripts": {
+    "g:commit": "commit",
+    "postinstall": "husky install",
+    "prepublishOnly": "pinst --disable",
+    "postpublish": "pinst --enable"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/prompt-cli": "^12.1.4",
+    "husky": "^6.0.0",
+    "pinst": "^2.0.0"
+  }
+}
